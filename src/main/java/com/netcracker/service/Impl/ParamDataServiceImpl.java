@@ -29,7 +29,6 @@ public class ParamDataServiceImpl implements ParamDataService {
     public ParamData create(ParamData paramData) {
         return this.paramDataDao.create(paramData);
     }
-    // assert not null (user) -> throw exception
 
     @Override
     public String GetParamDataByParamId(int paramId) throws SQLException {
